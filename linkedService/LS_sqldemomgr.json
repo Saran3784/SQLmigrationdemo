@@ -1,0 +1,21 @@
+{
+	"name": "LS_sqldemomgr",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "DESKTOP-10BOGGH\\SQLEXPRESS",
+			"database": "AdventureWorks",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "saran3784",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhZGE5NWYxMC1lYTU1LTQ1Y2MtYWUyNi01MzBiZTM2MDIwZjQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

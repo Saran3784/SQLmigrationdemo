@@ -1,0 +1,15 @@
+{
+	"name": "sqlmgrdemo",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0a00401c-87d3-4a79-ab2d-69258255167a",
+		"tenantId": "4f42197f-fb53-494c-9a7a-b3aa074a230f"
+	}
+}
