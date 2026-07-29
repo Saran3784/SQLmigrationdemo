@@ -25,7 +25,7 @@
 						"partitionOption": "None"
 					},
 					"dataset": {
-						"referenceName": "DS_LKUP_MAX_VALUE",
+						"referenceName": "SqlServerTable1",
 						"type": "DatasetReference"
 					},
 					"firstRowOnly": false
