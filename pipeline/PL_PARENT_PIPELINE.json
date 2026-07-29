@@ -25,7 +25,7 @@
 						"partitionOption": "None"
 					},
 					"dataset": {
-						"referenceName": "SqlServerTable1",
+						"referenceName": "SqlServerTable2",
 						"type": "DatasetReference"
 					},
 					"firstRowOnly": false
@@ -48,6 +48,7 @@
 						"value": "@activity('LKP_SQLTABLE_WATERMARK').output.value",
 						"type": "Expression"
 					},
+					"isSequential": false,
 					"activities": [
 						{
 							"name": "Exe_SQL_incremental",
